@@ -1,0 +1,170 @@
+[
+  {
+    "model": "goods.products",
+    "pk": 1,
+    "fields": {
+      "name": "Чайный столик и три стула",
+      "slug": "chajnyj-stolik-i-tri-stula",
+      "description": "Комплект из трёх стульев в дизайнерском стиле",
+      "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
+      "price": "150.00",
+      "discount": "10.00",
+      "quantity": 10,
+      "category": 5
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 2,
+    "fields": {
+      "name": "Чайный столик и два стула",
+      "slug": "chajnyj-stolik-i-dva-stula",
+      "description": "Небольшой столик с двумя стульями для уютной кухни или столовой.",
+      "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
+      "price": "93.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 5
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 3,
+    "fields": {
+      "name": "Двуспальная кровать",
+      "slug": "dvuhspalnaya-krovat",
+      "description": "Удобная двуспальная кровать для комфортного сна и отдыха.",
+      "image": "goods_images/double_bed.jpg",
+      "price": "670.00",
+      "discount": "10.00",
+      "quantity": 10,
+      "category": 6
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 4,
+    "fields": {
+      "name": "Кухонный стол с раковиной",
+      "slug": "kuhonnyj-stol-s-rakovinoj",
+      "description": "Функциональный кухонный стол с встроенной раковиной — удобно и практично.",
+      "image": "goods_images/kitchen_table.jpg",
+      "price": "365.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 5
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 5,
+    "fields": {
+      "name": "Кухонный стол со встроенной плитой",
+      "slug": "kuhonnyj-stol-s-vstrojkoj",
+      "description": "Современный кухонный стол со встроенной плитой, идеально подходит для малых кухонь.",
+      "image": "goods_images/kitchen_table_2.jpg",
+      "price": "430.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 5
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 6,
+    "fields": {
+      "name": "Угловой диван для гостиной",
+      "slug": "uglovoj-divan-dlya-gostinnoj",
+      "description": "Удобный угловой диван, создающий атмосферу уюта в гостиной.",
+      "image": "goods_images/corner_sofa.jpg",
+      "price": "610.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 7
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 7,
+    "fields": {
+      "name": "Прикроватный столик",
+      "slug": "prikrovatnyj-stolik",
+      "description": "Небольшой прикроватный столик для спальни, удобен для лампы и мелочей.",
+      "image": "goods_images/bedside_table.jpg",
+      "price": "55.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 6
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 8,
+    "fields": {
+      "name": "Обычный диван",
+      "slug": "divan-obyknovennyj",
+      "description": "Классический удобный диван для любой гостиной.",
+      "image": "goods_images/sofa.jpg",
+      "price": "190.00",
+      "discount": "10.00",
+      "quantity": 10,
+      "category": 7
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 9,
+    "fields": {
+      "name": "Стул офисный",
+      "slug": "stul-ofisnyj",
+      "description": "Комфортный офисный стул с эргономичной спинкой и регулировкой высоты.",
+      "image": "goods_images/office_chair.jpg",
+      "price": "30.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 8
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 10,
+    "fields": {
+      "name": "Растение",
+      "slug": "rastenie",
+      "description": "Искусственное декоративное растение для уюта и эстетики интерьера.",
+      "image": "goods_images/plants.jpg",
+      "price": "10.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 10
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 11,
+    "fields": {
+      "name": "Цветок стилизованный",
+      "slug": "cvetok-stilizirovannyj",
+      "description": "Декоративный стилизованный цветок из прочных материалов, подходит для декора.",
+      "image": "goods_images/flower.jpg",
+      "price": "15.00",
+      "discount": "0.00",
+      "quantity": 10,
+      "category": 10
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 12,
+    "fields": {
+      "name": "Прикроватный столик 2",
+      "slug": "prikrovatnyj-stolik-2",
+      "description": "Компактный прикроватный столик с полкой, удобен для небольшой спальни.",
+      "image": "goods_images/strange_table.jpg",
+      "price": "25.00",
+      "discount": "20.00",
+      "quantity": 10,
+      "category": 6
+    }
+  }
+]
