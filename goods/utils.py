@@ -1,4 +1,3 @@
-from django.db.models import Q
 from django.contrib.postgres.search import (
     SearchVector,
     SearchQuery,
@@ -19,7 +18,7 @@ def q_search(query):
 
     result = (
         Products.objects.annotate(rank=SearchRank(vector, query))
-        .filter(rank_gt=0)
+        .filter(rank__gt=0)
         .order_by("-rank")
     )
 
