@@ -24,6 +24,7 @@ class Products(models.Model):
     quantity = models.PositiveIntegerField(default=0, verbose_name='Количество')
     category = models.ForeignKey(to=Categories, on_delete=models.CASCADE, verbose_name='Категория')
 
+
     class Meta:
         db_table = 'product'
         verbose_name = 'Продукт'
