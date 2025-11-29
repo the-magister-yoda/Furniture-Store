@@ -38,3 +38,24 @@ class Cart(models.Model):
     def __str__(self):
         return f'Корзина {self.user.username} | Товар {self.product.name} | Количество {self.quantity}'
     
+CREATE TABLE scholarships (
+    id INT PRIMARY KEY,
+    name VARCHAR[20],
+    amount INT,
+    student_id INT
+);
+
+INSERT INTO scholarships VALUES (1, 'GRANT', 1000, 23141079)
+
+SELECT
+   d.name AS departament_name
+   SUM(s.amount) AS total_amount 
+   COUNT(s.id) AS total_scholarships
+   AVG(st.credits) AS student_credits
+FROM department d
+  JOIN students st ON st.departament_id = d.id
+  JOIN scholarships s ON s.student_id = st.id
+ 
+GROUP BY d.name
+ORDER BY total_amount DESC; 
+
